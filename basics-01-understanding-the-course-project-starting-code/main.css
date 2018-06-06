@@ -1,4 +1,37 @@
 /* A css rule is compose of a selector, a property and a value */
-section{
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
   background: #ff1b68
 }
+
+/* Combinators: allow us to be more specific about which element we wnat to add styles on */
+#product-overview h1 {
+  color: white;
+  font-family: 'Anton', sans-serif;
+}
+
+.section-title {
+  color: #2ddf5c;
+}
+
+/* h1 {
+  font-family: sans-serif;
+} */
+
+
+/* STANDARD FONTS */
+/* Standard Fonts on browser (browser settings):
+  serif
+  sans-serif
+  monospace
+*/
+
+/* SELECTORS: */
+/* Elements: set equal style fro these elements. HTML ex. <h1>, <p>, <div>  CSS ex. h1{ } */
+/* Classes: set equal style for elements within the same class. HTML ex. <h1 class="blog-post">, <p  class="blog-post">, <div  class="blog-post"> CSS ex. .blog-post{ } */
+/* Universal Selector(star selector): same style on every single element. CSS ex. *{ } */
+/* IDs: Set style to one specific element. HTML ex. <h1 id="main-title"> CSS ex. #main-title{ } */
+/* Attribute Selectors: Set equal style to all elements with attribute(s). HTML ex. <button disabled> CSS ex. [disabled]{ }  */
