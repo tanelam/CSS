@@ -1,10 +1,14 @@
 /* A css rule is compose of a selector, a property and a value */
 body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
 }
 
 #product-overview {
-  background: #ff1b68
+  background: #ff1b68;
+  padding: 20px;
+  border: 5px black solid;
+  margin: 20px;
 }
 
 /* Combinators: allow us to be more specific about which element we wnat to add styles on */
