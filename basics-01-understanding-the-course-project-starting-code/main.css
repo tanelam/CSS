@@ -26,6 +26,57 @@ body {
   color: #2ddf5c;
 }
 
+.main-header {
+  width: 100%;
+  background-color: #2ddf5c;
+  padding: 8px 16px;
+  margin: 10px 0px;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav__item a {
+  color: #0e4f1f;
+  text-decoration: none;
+  /* margin: 0 16px; */
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+}
+
+/* .main-nav__item a:active{
+  color: white;
+} */
 /* h1 {
   font-family: sans-serif;
 } */
