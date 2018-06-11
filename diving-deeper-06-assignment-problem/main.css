@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+.box {
+  color: white;
+  font-family: monospace;
+  background: purple;
+  padding: 50px 30px;
+  border: 10px solid magenta;
+  margin: 20px 10px;
+  height: 300px;
+  width: 30%;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.one{
+  display: none;
+}
+
+.main-box{
+  display: inline;
+}
+
+.two:hover{
+  background: magenta;
+  border: 10px solid purple;
+}
