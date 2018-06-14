@@ -1,0 +1,52 @@
+main {
+  padding-top: 28px;
+}
+
+.package {
+  width: 80%;
+  border: solid 4px #2d4b2d;
+  border-left: none;
+  margin: 20px 0;
+  padding: 40px;
+}
+
+.package:hover,
+.package:active {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border-color: #ff5454;
+}
+
+.one {
+  background: #cbfdcb
+}
+
+.two {
+  background: #e0fde0
+}
+
+.three {
+  background: #2d4b2d;
+}
+
+.packages-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
+}
+
+.three .package__title {
+  color: white;
+}
+
+.package__subtitle {
+  color: #a6a6a6;
+}
+
+.package__info {
+  background: white;
+  border: solid 1px #2d4b2d;
+  padding: 16px;
+  font-size: 20px;
+  color: #2d4b2d;
+}
