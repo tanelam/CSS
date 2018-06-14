@@ -176,9 +176,9 @@ color: #858585;
 
 .key-feature__list {
   list-style: none;
-  margin: 0;
-  padding: 0;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .key-feature {
