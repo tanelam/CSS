@@ -108,6 +108,12 @@
   font-size: 20px;
 }
 
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 /* .main-nav__item a:active{
   color: white;
 } */

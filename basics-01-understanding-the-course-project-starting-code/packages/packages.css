@@ -21,7 +21,11 @@ main {
 }
 
 .two {
-  background: #e0fde0
+  background: #e0fde0;
+  border: solid 4px #2d4b2d;
+  border-right: none;
+  float: right;
+  text-align: right;
 }
 
 .three {
@@ -49,4 +53,8 @@ main {
   padding: 16px;
   font-size: 20px;
   color: #2d4b2d;
+}
+
+.clearfix {
+  clear: both;
 }
