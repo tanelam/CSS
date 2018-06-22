@@ -16,6 +16,7 @@ main {
   border-left: none;
   margin: 20px 0;
   padding: 40px;
+  position: relative;
 }
 
 .package:hover,
@@ -49,6 +50,17 @@ main {
 
 .three .package__title {
   color: white;
+}
+
+.package__badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  background: #ff5454;
+  padding: 8px;
 }
 
 .package__subtitle {
