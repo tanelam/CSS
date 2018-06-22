@@ -4,13 +4,16 @@
   width: 100%;
   height: 528px;
   padding: 10px;
-
+  position: relative;
 }
 
 /* Combinators: allow us to be more specific about which element we wnat to add styles on */
 #product-overview h1 {
   color: white;
   font-family: 'Anton', sans-serif;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
 }
 
 .section-title {
