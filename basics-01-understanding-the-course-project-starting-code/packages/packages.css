@@ -1,5 +1,5 @@
 main {
-  padding-top: 32px;
+  padding-top: 2rem;
 }
 
 .background {
@@ -15,7 +15,7 @@ main {
   width: 80%;
   border: solid 4px #2d4b2d;
   border-left: none;
-  margin: 1.4rem 0;
+  margin: 1rem 0;
   padding: 40px;
   position: relative;
 }
@@ -46,7 +46,7 @@ main {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 32px;
+  padding: 2rem;
 }
 
 .three .package__title {
@@ -57,11 +57,11 @@ main {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 20px;
-  font-size: 1.4rem;
+  margin: 1.2rem;
+  font-size: 20px;
   color: white;
   background: #ff5454;
-  padding: 8px;
+  padding: .5rem;
 }
 
 .package__subtitle {
@@ -72,7 +72,7 @@ main {
   background: white;
   border: solid 1px #2d4b2d;
   padding: 16px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: #2d4b2d;
 }
 
