@@ -34,8 +34,8 @@
 .plan {
   background: #d5ffdc;
   text-align: center;
-  padding: 16px;
-  margin: 8px;
+  padding: 1rem;
+  margin: .5rem;
   display: inline-block;
   width: 30%;
   vertical-align: middle;
@@ -51,7 +51,7 @@
   background: white;
   color: #19b84c;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
-  padding: 8px;
+  padding: .5rem;
   border-radius: 8px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .plan__feature {
-  margin: 8px 0;
+  margin: .5rem 0;
 }
 
 #key-features {
@@ -89,7 +89,7 @@
 
 #key-features .section-title {
   color: white;
-  margin: 32px;
+  margin: 2rem;
 }
 
 .key-feature__list {
@@ -119,7 +119,7 @@
   text-align: center;
   font-weight: bold;
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .plan__list {
